@@ -1,0 +1,198 @@
+.col-md-4 { width: 33.33333333%; }
+
+.col-md-9 { width: 104%; }
+
+.col-md-offset-1 { margin-left: -2.667%; }
+
+.navbar { background-color: rgba(0, 0, 0, 0.5); padding: 13px; }
+.navbar .navbar-brand { padding: 18px 15px 0px 25px; font-size: 26px; color: #FED136; font-family: "Playball", cursive; }
+.navbar .navbar .navbar-header { width: 30px; }
+.navbar .navbar-right { float: right !important; margin-right: 27px; }
+.navbar .nav > li > a:focus, .navbar .nav > li > a:hover { background-color: transparent; color: #FED136; }
+.navbar .navbar a:focus, .navbar .navbar a:hover { color: #FED136; text-decoration: none; }
+.navbar .navbar-nav > li > a { padding-left: 20px; font-size: 14px; padding-top: 30px; color: white; text-transform: uppercase; font-family: "Playball", cursive; }
+.navbar .nav > li { position: relative; display: block; top: -10px; }
+
+.navbar-toggle .icon-bar { background: #ddd none repeat scroll 0 0; border-radius: 1px; display: block; height: 2px; width: 22px; }
+
+.navbar-toggle { background-color: transparent; background-image: none; border: 1px solid #ddd; border-radius: 4px; float: right; margin-bottom: 8px; margin-right: 15px; margin-top: 8px; padding: 9px 10px; position: relative; }
+
+/*bnner Style*/
+.banner_text { background: url("../image/Golden-One-Page-Web-Template.jpg") no-repeat; padding: 233px; background-size: cover; background-attachment: fixed; background-position: 50% 30%; }
+.banner_text .text_wrapper h3 { font-size: 40px; color: #FDFDFD; }
+.banner_text .text_wrapper h1 { font-size: 70px; color: #FFFFFF; font-weight: bold; }
+.banner_text .text_wrapper p { display: inline-block; border: 3px solid #FED136; padding: 10px 67px; background-color: #FED136; color: white; font-size: 18px; }
+
+/*service area Style*/
+.service_bg { background-color: #2F2C3D; border-top: 5px solid #D2A43B; border-bottom: 5px solid #D2A43B; }
+.service_bg .service_area { padding-top: 100px; padding-bottom: 115px; }
+.service_bg .service_head { padding-bottom: 75px; }
+.service_bg .service_head h2 { font-size: 40px; font-weight: normal; color: #F0F0F0; }
+.service_bg .service_head p { font-size: 16px; color: #F0F0F0; font-weight: normal; margin-top: 22px; font-family: "Playball", cursive; }
+.service_bg .single_service:hover i { background-color: #F0F0F0; }
+.service_bg .single_service i { font-size: 40px; border: 5px solid #D2A43B; border-radius: 50%; padding: 25px; color: #D2A43B; }
+.service_bg .single_service h2 { font-size: 18px; font-weight: bold; padding: 23px 0px; color: #F0F0F0; }
+.service_bg .single_service p { color: #F0F0F0; }
+.service_bg .jumbotron { padding-top: 30px; padding-bottom: 30px; margin-bottom: 30px; color: inherit; background-color: #2F2C3D; }
+.service_bg .btn-primary { color: #fff; background-color: #FED136; border-color: #2e6da4; }
+
+/*start of portfolio*/
+.port_bg { background-color: #00050B; padding-bottom: 55px; }
+.port_bg .portfolio_head { padding: 100px 0px 74px 0px; }
+.port_bg .portfolio_head h2 { font-size: 40px; color: #F0F0F0; font-weight: regular; }
+.port_bg .portfolio_head p { font-size: 18px; color: #F0F0F0; text-transform: uppercase; font-family: "Playball", cursive; }
+.port_bg .thumbnail { border: none; border-radius: none; }
+.port_bg .single_post { position: relative; overflow: hidden; }
+.port_bg .overlay { position: absolute; height: 100%; width: 100%; bottom: 100%; left: 0; background-color: rgba(0, 0, 0, 0.5); transition: all .5s; }
+.port_bg .overlay span { position: absolute; top: 39%; left: 152px; color: #fff; display: inline-block; font-size: 35px; }
+.port_bg .single_post:hover .overlay { bottom: 0; }
+.port_bg .portfolio_wrapper .caption { padding: -11px 30px; padding-bottom: 30px; }
+.port_bg .portfolio_wrapper .caption h2 { font-size: 18px; color: #808080; }
+.port_bg .portfolio_wrapper .caption p { font-size: 14px; color: #737373; }
+
+/*about Us section goes hear*/
+.about_bg { border-top: 5px solid #D2A43B; }
+.about_bg .parallax-window { min-height: 400px; background: transparent; }
+.about_bg .servicetitle { padding-top: 100px; padding-bottom: 130px; }
+.about_bg .servicetitle h2 { font-size: 40px; color: #F0F0F0; text-transform: uppercase; }
+.about_bg .servicetitle p { font-size: 18px; color: #F0F0F0; font-weight: normal; text-transform: uppercase; font-family: "Playball", cursive; }
+.about_bg .sevice-item { margin-bottom: 41px; }
+.about_bg .sevice-item h3 { font-size: 18px; line-height: 1px; color: #F0F0F0; }
+.about_bg .sevice-item p { font-size: 14px; margin-top: 21px; color: #F0F0F0; }
+.about_bg .img-circle { border-radius: 50%; width: 200px; height: 200px; margin-left: 94px; }
+.about_bg .our_story { border: 1px solid white; border-radius: 50%; display: inline-block; background-color: yellow; padding: 56px; width: 200px; height: 200px; font-size: 18px; padding-bottom: 40px; margin-bottom: 41px; }
+.about_bg .our_story p { padding-top: 16px; }
+
+/*counter up section goes hear*/
+#counter_up { background: #00050B; padding-top: 50px; padding-bottom: 50px; border-top: 5px solid #D2A43B; }
+#counter_up .counter_up_wrapper .single_counter_up h2 { font-size: 33px; color: #D2A43B; text-align: center; }
+#counter_up .counter_up_wrapper .single_counter_up span { color: white; font-size: 18px; margin-left: 103px; color: #fff; }
+
+/*our team section goes hear*/
+.team_bg { background-color: #00050B; border-bottom: 5px solid #D2A43B; border-top: 5px solid #D2A43B; }
+.team_bg .thumbnail { padding: 20px; background: #484556; border: 4px solid #D2A43B; }
+.team_bg .thumbnail .caption { padding-bottom: 36px; }
+.team_bg .team_wrapper .thumbnail .caption h2 { color: #000; font-size: 17px; text-transform: uppercase; }
+.team_bg .team_wrapper .thumbnail .caption h2 { font-size: 16px; color: #000; }
+.team_bg .caption p { color: #fff; font-size: 18px; }
+.team_bg .team_wrapper .thumbnail img { border-radius: 60%; width: 200px; height: 200px; }
+.team_bg .our_team_head { padding-top: 100px; padding-bottom: 64px; }
+.team_bg .our_team_head h2 { font-size: 40px; font-weight: regular; color: #F0F0F0; }
+.team_bg .our_team_head p { font-size: 18px; color: #F0F0F0; text-transform: uppercase; font-family: "Playball", cursive; }
+.team_bg .team_wrapper .thumbnail .caption h2 { font-size: 16px; color: #fff; }
+.team_bg .team_wrapper .thumbnail .caption p { font-size: 14px; }
+.team_bg .team_wrapper .thumbnail span i { border: 3px solid #D2A43B; padding: 14px; border-radius: 50%; font-weight: bold; font-size: 15px; background-color: white; color: black; color: #242424; height: 48px; width: 49px; margin-left: 14px; }
+.team_bg .team_wrapper .thumbnail span i:hover { background-color: #26B4E3; color: white; border: 3px solid white; }
+.team_bg .team_footer { padding-top: 30px; padding-bottom: 60px; font-size: 14px; color: #777777; text-align: center; }
+
+/*contact goes here*/
+.contuct_bg { background-color: #2F2C3D; border-bottom: 5px solid #D2A43B; }
+.contuct_bg .contuct_head { padding: 109px 0px 77px 0px; }
+.contuct_bg .contuct_head h1 { font-size: 40px; color: white; }
+.contuct_bg .contuct_head p { font-size: 18px; color: #fff; text-transform: uppercase; font-family: "Playball", cursive; }
+.contuct_bg .form-control { display: block; width: 100%; height: 34px; padding: 6px 12px; font-size: 14px; line-height: 1.42857143; color: #555; background-color: transparent; background-image: none; border: 1px solid #D2A43B; border-radius: 0; -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s; -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s; transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s; }
+.contuct_bg .form-control:focus { border-color: #FFFF00; outline: 0; -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6); box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6); }
+.contuct_bg .btn.btn-default { margin-left: 42%; width: 16%; margin-top: 25px; height: 48px; font-size: 18px; color: #292929; background-color: #D2A43B; margin-bottom: 19px; border-radius: 5px; }
+.contuct_bg .btn.btn-default:focus { border-color: #FFFF00; outline: 0; -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6); box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6); }
+
+/*footer goes here*/
+.footer_bg { background-color: #00050B; }
+.footer_bg .footer-contant { float: left; height: 100px; }
+.footer_bg .footer-contant p { padding: 41px 0; font-size: 16px; margin-left: 214px; color: #FFFFFF; }
+.footer_bg .font-icon { text-align: center; margin-top: 10px; margin-bottom: 14px; }
+.footer_bg .font-icon p { color: #fff; margin-top: 32px; font-size: 21px; }
+.footer_bg .font-icon i { height: 40px; width: 40px; color: #F0F0F0; }
+.footer_bg .font-icon i:hover { background-color: #05A9DC; }
+.footer_bg .fa { display: inline-block; font: normal normal normal 14px/1 FontAwesome; font-size: inherit; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; border: 2px solid; border-radius: 23px; padding: 9px; font-size: 21px; margin-left: 14px; }
+
+@media only screen and (min-width: 769px) { .container { width: 1200px; }
+  .col-md-4 { float: left; }
+  #counter_up .counter_up_wrapper .single_counter_up h2 { font-size: 33px; color: #D2A43B; text-align: center; }
+  #counter_up .counter_up_wrapper .single_counter_up span { color: white; font-size: 18px; margin-left: 103px; color: #fff; } }
+@media only screen and (max-width: 768px) { .container { width: 768px; }
+  .navbar .navbar-brand { color: #270202; }
+  .navbar .navbar-right { margin-right: 442px; }
+  .navbar .navbar-brand { padding: 15px 15px 0px 25px; }
+  .banner_text { padding: 0; }
+  .navbar .navbar-brand { color: #fff; font-size: 25px; padding: 9px 16px 0 17px; }
+  .text-uppercase { margin-top: 77px; }
+  .banner_text .text_wrapper h3 { font-size: 34px; }
+  .banner_text .text_wrapper p { padding: 12px 12px; }
+  .banner_text .text_wrapper h1 { font-size: 51px; }
+  .col-md-4 { width: 32.333%; float: left; }
+  .service_bg .single_service p { font-size: 12px; }
+  .team_wrapper { float: left; width: 49%; }
+  .team_bg .thumbnail { width: 373px; margin-left: -22px; margin-bottom: 3px; }
+  .team_bg .our_team_head { padding-top: 15px; padding-bottom: 35px; }
+  .team_bg .thumbnail .caption { text-align: center; }
+  .team_bg .team_wrapper .thumbnail span i { margin-left: 48px; text-align: center; }
+  .team_bg .our_team_head h2 { font-size: 27px; }
+  .team_bg .our_team_head p { font-size: 12px; }
+  .service_bg .service_area { padding-top: 15px; }
+  .service_bg .service_head h2 { font-size: 27px; }
+  .service_bg .service_head p { font-size: 12px; margin-top: 15px; }
+  .service_bg .jumbotron { margin-bottom: -3px; }
+  .service_bg .service_area { padding-bottom: 16px; }
+  .service { margin-top: 25px; }
+  .port_bg .portfolio_head { padding: 25px 0px 74px 0px; }
+  .port_bg .thumbnail { margin-left: -14px; }
+  .port_bg .portfolio_head h2 { font-size: 27px; }
+  .port_bg .portfolio_head p { font-size: 12px; }
+  .about_bg .servicetitle { padding-top: 25px; }
+  .about_bg .servicetitle h2 { font-size: 27px; margin-left: -24px; }
+  .about_bg .servicetitle p { font-size: 12px; margin-left: -31px; }
+  .about_bg .sevice-item p { font-size: 12px; }
+  .about_bg .img-circle { margin-left: -8px; }
+  .our_story { margin-right: 8%; }
+  .counter_up_wrapper { float: left; width: 23%; margin-top: -19px; text-align: center; }
+  #counter_up .counter_up_wrapper .single_counter_up h2 { font-size: 28px; }
+  #counter_up .counter_up_wrapper .single_counter_up span { margin-left: -8px; }
+  .contuct_bg .contuct_head { padding: 27px 0px 77px 0px; }
+  .contuct_bg .contuct_head h1 { font-size: 27px; }
+  .contuct_bg .contuct_head p { font-size: 12px; }
+  .contuct_info_wrapper { margin-top: -37px; margin-right: 30px; }
+  .contuct_bg .btn.btn-default { margin-left: 25%; width: 42%; margin-top: 13px; height: 40px; font-size: 18px; }
+  .footer_bg .font-icon { width: 92%; } }
+/* media query 320 max-width gose */
+@media only screen and (max-width: 320px) { .container { width: 320px; }
+  .navbar-fixed-top { background-color: #000; }
+  .navbar .navbar-right { margin-right: 157px; }
+  .navbar .navbar-brand { color: #fff; font-size: 25px; padding: 9px 16px 0 17px; }
+  .navbar a:focus, .navbar a:hover { color: #FED136; text-decoration: none; }
+  .banner_text { padding: 0; }
+  .banner_text .text_wrapper h3 { font-size: 29px; }
+  .text-uppercase { margin-top: 77px; color: #fff; }
+  .banner_text .text_wrapper h3 { font-size: 24px; }
+  .banner_text .text_wrapper h1 { font-size: 28px; }
+  .banner_text .text_wrapper p { padding: 2px 9px; font-size: 15px; }
+  .service_bg .service_head { padding-bottom: 46px; margin-right: 27px; }
+  .service_bg .service_head h2 { font-size: 27px; }
+  .service_bg .service_head p { font-size: 10px; margin-top: 15px; }
+  .col-md-4 { width: 89.333%; }
+  .port_bg .portfolio_head { padding: 25px 38px 50px 0px; }
+  .portfolio_wrapper.text-center { width: 107%; }
+  .port_bg .portfolio_head h2 { font-size: 27px; }
+  .port_bg .portfolio_head p { font-size: 10px; }
+  .about_bg .servicetitle { padding-top: 25px; }
+  .about_bg .sevice-item p { font-size: 12px; }
+  .about_bg .img-circle { margin-left: 36px; }
+  .team_wrapper { margin-left: -10px; width: 50%; float: none; }
+  .team_bg .our_team_head { margin-right: 38px; }
+  .team_bg .our_team_head h2 { font-size: 21px; }
+  .team_bg .our_team_head p { font-size: 12px; }
+  .team_bg .thumbnail .caption { text-align: center; }
+  .team_bg .team_wrapper .thumbnail span i { margin-right: -29px; }
+  .team_bg .team_footer { padding-bottom: 36px; font-size: 12px; text-align: justify; margin-right: 34px; }
+  .counter_up_wrapper { float: none; width: 78%; margin-top: -11px; text-align: center; }
+  #counter_up .counter_up_wrapper .single_counter_up h2 { font-size: 27px; }
+  .contuct_bg .contuct_head { margin-right: 43px; }
+  .contuct_bg .contuct_head h1 { font-size: 27px; }
+  .contuct_bg .contuct_head p { font-size: 12px; }
+  .contuct_info_wrapper { margin-top: -37px; margin-right: 30px; }
+  .contuct_bg .btn.btn-default { margin-left: 25%; width: 42%; margin-top: 13px; }
+  .footer_bg .font-icon { width: 85%; margin-top: -24px; float: none; }
+  .footer_bg .font-icon p { font-size: 12px; margin-top: 32px; color: #fff; text-align: center; }
+  .footer_bg .fa { font-size: 12px; margin-left: 29px; padding: 8px; }
+  .footer_bg .font-icon i { height: 32px; width: 32px; margin-bottom: 16px; } }
+
+/*# sourceMappingURL=style.css.map */
